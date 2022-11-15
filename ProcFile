@@ -1,0 +1,3 @@
+#to connect heruku with app instruct server how start the app
+
+web: gunicorn -w 5 -k uvicorn.workers.UvicornWorker api:storage
