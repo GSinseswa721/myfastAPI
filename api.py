@@ -19,4 +19,6 @@ def names(First_name: bool = False, last_name: bool = False, full_name: bool = T
         full_names += 'Sinseswa'
     if full_name:
         full_names = 'Hello my name is Gloria Sinseswa'
-    return full_names
+    return 
+if __name__ == "__main__":
+    storage.main()
